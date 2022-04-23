@@ -10,7 +10,7 @@ function countdown() {
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   var timeInterval = setInterval(function () {
-    //
+    time--
     // YOUR CODE HERE
     //
   });
