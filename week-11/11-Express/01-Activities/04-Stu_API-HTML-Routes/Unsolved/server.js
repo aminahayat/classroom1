@@ -5,7 +5,7 @@ const termData = require("./terms.json");
 // TODO: Import 'terms.json' file
 const PORT = 3001;
 
-const app = express();
+app.get("./app.terms",(req, res) => res.json(termData));
 
 // TODO: Initialize app variable
 

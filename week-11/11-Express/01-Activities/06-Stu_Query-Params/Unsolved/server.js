@@ -11,7 +11,8 @@ const sortHelper = (type) =>
   termData.sort(sortData('term', 'relevance', `${type}`));
 
 // TODO: Add a comment describing the functionality of this route
-
+// This functiom responds to a GET request on /api/terms route. It returns a Json whuch could be formatted 
+//by passing a "sort" query string/
 app.get('/api/terms/', (req, res) => {
   // TODO: Add a comment describing the req.query object
 
