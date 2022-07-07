@@ -34,6 +34,11 @@ User.init(
   },
   {
     // TODO: Add hooks here
+    hooks: {
+      beforeCreate: (instance, options) => {
+        console.log(instance, options)
+      }
+    };
 
     sequelize,
     timestamps: false,
